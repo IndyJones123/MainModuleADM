@@ -1,4 +1,4 @@
-from MainModuleADM.Logging.logging_config import write_log, conf_logging
+from MainModuleADM.Logging.logging_config import conf_logging, write_log
 
 import logging
 

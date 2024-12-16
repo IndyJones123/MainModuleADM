@@ -7,9 +7,6 @@ import os
 # AES 'pad' byte array to multiple of BLOCK_SIZE bytes
 __key = 'MGP@ssW0rd30182933123213'
 
-
-print('asd')
-
 def pad(byte_array):
     block_size = 16
     pad_len = block_size - len(byte_array) % block_size

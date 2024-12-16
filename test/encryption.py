@@ -1,5 +1,6 @@
 from MainModuleADM.Encryption.aes import encrypt, decrypt
 
+
 test = 'Initial Project Testing'
 key = 'WKbWo%Grj)C6YhAq'[:16]
 
