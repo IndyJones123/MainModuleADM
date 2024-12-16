@@ -1,6 +1,5 @@
 # Ignore build artifacts
-dblogging/
+
 MainModuleADM.egg-info/
-logging/
 dist/
 build/
