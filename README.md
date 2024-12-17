@@ -1,4 +1,4 @@
-# My Logging Package
+# My MainModuleADM Package
 
 A simple and customizable Python logging utility that makes it easy to configure and manage logging in your projects. This package provides functions to set up logging with rotating log files and write logs effortlessly.
 
