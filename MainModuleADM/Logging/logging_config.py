@@ -5,7 +5,7 @@ import platform
 from logging.handlers import TimedRotatingFileHandler
 
 
-def conf_logging(nama_log: str = 'root'):
+def i_conf_logging(nama_log: str = 'root'):
     path = os.getcwd()
     # system = platform.system().upper()
 
@@ -33,7 +33,7 @@ def conf_logging(nama_log: str = 'root'):
     return console
 
 
-def write_log(logger: logging.Logger, nama_fungsi: str, ket: str):
+def i_write_log(logger: logging.Logger, nama_fungsi: str, ket: str):
     try:
         logger.info(f'fc:{nama_fungsi}(): {ket}')
     except PermissionError:

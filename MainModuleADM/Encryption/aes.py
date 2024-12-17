@@ -19,7 +19,7 @@ def unpad(byte_array):
     return byte_array[0:-last_byte]
 
 
-def encrypt(key, message) -> str:
+def i_encrypt(key, message) -> str:
     """
     Melakukan Enkripsi Plain String dengan metode AES128-CBC menggunakan
     random vi, mengembalikan nilai cipher dalam bentuk base64 encoded string
@@ -43,7 +43,7 @@ def encrypt(key, message) -> str:
     return base64.b64encode(iv + encrypted).decode("UTF-8")
 
 
-def decrypt(key, message) -> str:
+def i_decrypt(key, message) -> str:
     """
     Melakukan Dekripsi Cipher String dengan metode AES128-CBC,
     mengembalikan nilai plain dalam bentuk string
